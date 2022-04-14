@@ -1,0 +1,52 @@
+.funcspecs {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+}
+
+.specs-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.specs-container .specs-card {
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+.specs-card {
+    text-align: center;
+    padding: 1rem
+}
+
+.specs-card:hover {
+    background-color: #141414;
+}
+
+.specs-card h2 {
+    font-size: 1.9rem;
+    padding: 1rem;
+
+}
+
+.specs-card .bar {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+@media screen and (max-width: 980px) {
+    .specs-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
