@@ -23,10 +23,13 @@ function Navbar() {
           <Link to='/allevents'>All Events</Link>
         </li>
         <li>
-          <Link to='/gallery'>Gallery</Link>
+          <Link to='/store'>Merch Store</Link>
         </li>
         <li>
           <Link to='/venuespecs'>Venue Info</Link>
+        </li>
+        <li>
+          <Link to='/gallery'>Gallery</Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>

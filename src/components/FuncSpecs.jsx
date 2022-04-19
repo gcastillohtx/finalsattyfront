@@ -33,7 +33,7 @@ function FuncSpecs() {
                 <h2>Food And Bev</h2>
                 <span className='bar'></span>
                 <h3>-Rotating Food Vendors-</h3>
-                <p>Taocs Bomberos</p>
+                <p>Tacos Bomberos</p>
                 <p>Umbrella Fellas</p>
                 <p>Indoor Bar</p>
                 <p>Outdoor Bar</p>

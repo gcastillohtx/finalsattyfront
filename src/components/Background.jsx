@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Background.css'
 
-import sattyVideo from '../assets/Video.mp4'
+import sattyVideo from '../assets/mantra.mp4'
 
 function Background() {
   return (

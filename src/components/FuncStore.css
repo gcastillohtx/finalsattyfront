@@ -1,0 +1,155 @@
+:root {
+  --primary-dark: #2da8ac;
+  --primary-light: #abdedb;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .products {
+      display: flex;
+      align-items: baseline;
+      
+    
+  }
+
+  h1{
+    text-align: center;
+  }
+
+ .gotocart {
+   text-align: center;
+   
+   
+ }
+
+ .gtcbutton{
+   font-size: large;
+   background-image: linear-gradient(45deg,var(--primary-dark) 0%, var(--primary-light) 100%);
+   border: 1px solid var(--primary-dark);
+   padding: .7rem 1.5rem;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+
+ .checkoutbtn{
+  font-size: large;
+  background-image: linear-gradient(45deg,var(--primary-dark) 0%, var(--primary-light) 100%);
+  border: 1px solid var(--primary-dark);
+  padding: .7rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+ }
+
+
+
+  .storetitle{
+      text-align: center;
+  }
+  
+  .storecards__item {
+    display: flex;
+    
+    width: 25%;
+    margin-left: 90px;
+  }
+  
+  .storecard {
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+  }
+  
+  .card__content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .storecard__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    filter: contrast(70%);
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+    height: 273px;
+    width: 273px;
+    
+    
+    
+  }
+  
+  .card__image:hover{
+    filter: contrast(100%);
+  }
+  
+  
+  .card__title {
+    color: #fafafaa1;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .card__text, .card__detail p {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+  
+  .card__detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card__detail p {
+    text-align: center;
+  }
+  
+  .card__detail button{
+    text-align: center;
+  }
+
+  .homeheader{
+      text-align: center;
+  }
+
+  .cartsummary {
+    max-width: 1140px;
+    margin: auto;
+    /* display: grid; */
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+  }
+  
+  @media(max-width: 700px){
+    .cards__item{
+      width: 50%;
+    }
+  }
+
+  
+
+
+

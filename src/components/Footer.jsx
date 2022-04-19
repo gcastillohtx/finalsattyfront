@@ -33,9 +33,16 @@ function Footer() {
               <h4>About Us</h4>
               <p>Founded in 2015 in the heart of Houston's Greater East End, we are commited to hosting the best up and coming touring artists, as well as showcasing local musicians. We have two stages and two full bars; Indoor and Outdoor, and feature local rotating food vendors on our sprawling patio. Open Thurs-Sun from 7pm-2am!</p>
               <div className='social'>
+                <a href="https://www.facebook.com/satellitehtx">
                   <FaFacebook size={30} style={{ color: "#ffffff", marginRight: "3rem" }} />
+                  </a>
+                  <a href="https://www.instagram.com/satellitehtx">
                   <FaInstagram size={30} style={{ color: "#ffffff", marginRight: "3rem" }} />
+                  </a>
+                  <a href="https://open.spotify.com/playlist/5h7Rwo5tfGrrEhr1tPeGpT?gclid=CPesjO7_gLQCFax7cAod9jMAeA">
                   <FaSpotify size={30} style={{ color: "#ffffff", marginRight: "3rem" }} />
+                  </a>
+                  
                   <FaTwitter size={30} style={{ color: "#ffffff", marginRight: "1rem" }} />
               </div>
           </div>
